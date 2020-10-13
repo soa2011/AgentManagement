@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="CommissionSchedule">
-    <sch:name>CommissionSchedule</sch:name>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="CommissionCalendar">
+    <sch:name>CommissionCalendar</sch:name>
     <sch:domainType>REFERENCE</sch:domainType>
     <sch:description></sch:description>
     <sch:domainKeys>
@@ -8,8 +8,8 @@
             <sch:seqNo>1</sch:seqNo>
             <sch:domainTableId></sch:domainTableId>
             <sch:domainTableReference></sch:domainTableReference>
-            <sch:name>CommissionSchedule</sch:name>
-            <sch:columnName>CommissionSchedule</sch:columnName>
+            <sch:name>CommissionCalendar</sch:name>
+            <sch:columnName>CommissionCalendar</sch:columnName>
             <sch:type></sch:type>
             <sch:keySize></sch:keySize>
             <sch:description></sch:description>

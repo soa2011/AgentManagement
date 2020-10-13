@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:Rule xmlns:sch="http://Baf.com/schemas" name="CommissionSchedule">
-    <sch:name>CommissionSchedule</sch:name>
-    <sch:objectTypeName>CommissionSchedule</sch:objectTypeName>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="CommissionCalendar">
+    <sch:name>CommissionCalendar</sch:name>
+    <sch:objectTypeName>CommissionCalendar</sch:objectTypeName>
     <sch:referenceName></sch:referenceName>
     <sch:fieldName></sch:fieldName>
     <sch:ruleType>Validation</sch:ruleType>
@@ -9,5 +9,5 @@
     <sch:ruleLanguage></sch:ruleLanguage>
     <sch:ruleBody></sch:ruleBody>
     <sch:seqNumber>7</sch:seqNumber>
-    <sch:description>CommissionSchedule_Validate</sch:description>
+    <sch:description>CommissionCalendar_Validate</sch:description>
 </sch:Rule>

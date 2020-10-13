@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="CommissionSchedule">
-    <sch:name>CommissionSchedule</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="CommissionPeriod">
+    <sch:name>CommissionPeriod</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>AgentManagement</sch:parentTypeName>
+    <sch:parentTypeName>CommissionCalendar</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -15,25 +15,13 @@
     <sch:aggrRoot>false</sch:aggrRoot>
     <sch:changeType></sch:changeType>
     <sch:changeFields></sch:changeFields>
-    <sch:bmfRelationships>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>CommScheduleBracket</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>CommScheduleBracket</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-    </sch:bmfRelationships>
+    <sch:bmfRelationships/>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>Name</sch:name>
+            <sch:name>PeriodType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>64</sch:length>
+            <sch:enumName>PeriodType</sch:enumName>
+            <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -46,11 +34,11 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Description</sch:name>
-            <sch:dataType>Char</sch:dataType>
+            <sch:name>LowPremium</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>128</sch:length>
-            <sch:scale></sch:scale>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -62,7 +50,23 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>EffectiveDate</sch:name>
+            <sch:name>HighPremium</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>LowDate</sch:name>
             <sch:dataType>Date</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length></sch:length>
@@ -78,11 +82,107 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>ExpirationDate</sch:name>
+            <sch:name>HighDate</sch:name>
             <sch:dataType>Date</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length></sch:length>
             <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>CommissionType</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName>CommissionType</sch:enumName>
+            <sch:length>32</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>Amount</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>Percentage</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>ScheduleBasis</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName>BasisType</sch:enumName>
+            <sch:length>32</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description>Based on written, earned premium</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>ScheduleMaximum</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>ScheduleMinimum</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -158,20 +258,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
     </sch:bmfFields>
-    <sch:bmfRules>
-        <sch:BmfRule>
-            <sch:name>CommissionSchedule</sch:name>
-            <sch:objectTypeName>CommissionSchedule</sch:objectTypeName>
-            <sch:referenceName></sch:referenceName>
-            <sch:fieldName></sch:fieldName>
-            <sch:ruleType>Validation</sch:ruleType>
-            <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
-            <sch:ruleBody></sch:ruleBody>
-            <sch:seqNumber>7</sch:seqNumber>
-            <sch:description>CommissionSchedule_Validate</sch:description>
-        </sch:BmfRule>
-    </sch:bmfRules>
+    <sch:bmfRules/>
     <sch:bmfIndexRules/>
     <sch:objectTypeConfigs/>
 </sch:ObjectType>

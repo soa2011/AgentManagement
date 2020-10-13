@@ -220,7 +220,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>CommissionSchedule</sch:tableName>
+            <sch:tableName>CommissionCalendar</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>350</sch:seqIndex>
             <sch:format>Schedules(%s)</sch:format>
@@ -230,7 +230,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>CommissionSchedule</sch:tableName>
+            <sch:tableName>CommissionCalendar</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>355</sch:seqIndex>
             <sch:format>%s %s %s</sch:format>
@@ -240,7 +240,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>CommScheduleBracket</sch:tableName>
+            <sch:tableName>CommissionPeriod</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>360</sch:seqIndex>
             <sch:format>Brackets(%s)</sch:format>
@@ -250,7 +250,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>CommScheduleBracket</sch:tableName>
+            <sch:tableName>CommissionPeriod</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>365</sch:seqIndex>
             <sch:format>%s %s %s</sch:format>

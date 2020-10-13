@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="Commission Schedule Bracket Detail">
-    <sch:name>Commission Schedule Bracket Detail</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="CommissionPeriod Detail">
+    <sch:name>CommissionPeriod Detail</sch:name>
     <sch:pageNumber></sch:pageNumber>
     <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>500</sch:seqNumber>
-    <sch:objectTypeName>CommScheduleBracket</sch:objectTypeName>
+    <sch:objectTypeName>CommissionPeriod</sch:objectTypeName>
     <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,23 +25,23 @@
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">CommScheduleBracket</sch:objectType>
+    <sch:objectType isRef="true">CommissionPeriod</sch:objectType>
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>ScheduleType</sch:name>
+            <sch:name>PeriodType</sch:name>
             <sch:seqNumber>100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Schedule Type</sch:label>
+            <sch:label>PeriodType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>ScheduleType</sch:domainName>
+            <sch:domainName>PeriodType</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
-            <sch:defaultValue>PremiumRange</sch:defaultValue>
+            <sch:defaultValue>Month</sch:defaultValue>
             <sch:mask></sch:mask>
             <sch:relatedFields></sch:relatedFields>
             <sch:relatedRules></sch:relatedRules>
@@ -78,7 +78,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">ScheduleType</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">PeriodType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>LowPremium</sch:name>
@@ -108,8 +108,8 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#ScheduleType").val() == "PremiumRange"</sch:displayCondition>
-            <sch:requiredCondition>$("#ScheduleType").val() == "PremiumRange"</sch:requiredCondition>
+            <sch:displayCondition>$("#PeriodType").val() == "PremiumRange"</sch:displayCondition>
+            <sch:requiredCondition>$("#PeriodType").val() == "PremiumRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
@@ -159,8 +159,8 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#ScheduleType").val() == "PremiumRange"</sch:displayCondition>
-            <sch:requiredCondition>$("#ScheduleType").val() == "PremiumRange"</sch:requiredCondition>
+            <sch:displayCondition>$("#PeriodType").val() == "PremiumRange"</sch:displayCondition>
+            <sch:requiredCondition>$("#PeriodType").val() == "PremiumRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
@@ -210,8 +210,8 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#ScheduleType").val() == "DateRange"</sch:displayCondition>
-            <sch:requiredCondition>$("#ScheduleType").val() == "DateRange"</sch:requiredCondition>
+            <sch:displayCondition>$("#PeriodType").val() == "DateRange"</sch:displayCondition>
+            <sch:requiredCondition>$("#PeriodType").val() == "DateRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
@@ -261,8 +261,8 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#ScheduleType").val() == "DateRange"</sch:displayCondition>
-            <sch:requiredCondition>$("#ScheduleType").val() == "DateRange"</sch:requiredCondition>
+            <sch:displayCondition>$("#PeriodType").val() == "DateRange"</sch:displayCondition>
+            <sch:requiredCondition>$("#PeriodType").val() == "DateRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>

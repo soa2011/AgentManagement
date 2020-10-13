@@ -84,10 +84,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>CommissionSchedule</sch:name>
+            <sch:name>CommissionCalendar</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionSchedule</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>

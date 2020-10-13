@@ -295,7 +295,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Issuance Schedule</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>CommissionSchedule</sch:domainName>
+            <sch:domainName>CommissionCalendar</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -335,7 +335,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">CommissionSchedule</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">CommissionCalendar</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IssuanceMinimum</sch:name>
@@ -655,7 +655,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Endorsement Schedule</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>CommissionSchedule</sch:domainName>
+            <sch:domainName>CommissionCalendar</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -695,7 +695,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">CommissionSchedule</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">CommissionCalendar</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>EndorsementMinimum</sch:name>
@@ -1015,7 +1015,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Renewal Schedule</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>CommissionSchedule</sch:domainName>
+            <sch:domainName>CommissionCalendar</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -1055,7 +1055,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">CommissionSchedule</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">CommissionCalendar</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>RenewalMinimum</sch:name>
@@ -1375,7 +1375,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Tail Schedule</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>CommissionSchedule</sch:domainName>
+            <sch:domainName>CommissionCalendar</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -1415,7 +1415,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">CommissionSchedule</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">CommissionCalendar</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>TailMinimum</sch:name>

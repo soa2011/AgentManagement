@@ -21,7 +21,7 @@
             <sch:name>IssuanceSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionSchedule</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -32,7 +32,7 @@
             <sch:name>RenewalSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionSchedule</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -43,7 +43,7 @@
             <sch:name>EndorsementSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionSchedule</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -54,7 +54,7 @@
             <sch:name>TailSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionSchedule</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
