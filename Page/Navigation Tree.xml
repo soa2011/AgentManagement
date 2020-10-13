@@ -223,7 +223,7 @@
             <sch:tableName>CommissionCalendar</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>350</sch:seqIndex>
-            <sch:format>Schedules(%s)</sch:format>
+            <sch:format>Calendars(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -233,8 +233,8 @@
             <sch:tableName>CommissionCalendar</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>355</sch:seqIndex>
-            <sch:format>%s %s %s</sch:format>
-            <sch:columns>Name,EffectiveDate,ExpirationDate</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:description></sch:description>
@@ -243,7 +243,7 @@
             <sch:tableName>CommissionPeriod</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>360</sch:seqIndex>
-            <sch:format>Brackets(%s)</sch:format>
+            <sch:format>Periods(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -253,8 +253,8 @@
             <sch:tableName>CommissionPeriod</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>365</sch:seqIndex>
-            <sch:format>%s %s %s</sch:format>
-            <sch:columns>CommissionType,Amount,Percentage</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:description></sch:description>

@@ -81,14 +81,14 @@
             <sch:bmfDomain isRef="true">PeriodType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>LowPremium</sch:name>
+            <sch:name>Name</sch:name>
             <sch:seqNumber>200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Low Premium</sch:label>
+            <sch:label>Name</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -108,7 +108,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#PeriodType").val() == "PremiumRange"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#PeriodType").val() == "PremiumRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -159,7 +159,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#PeriodType").val() == "PremiumRange"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#PeriodType").val() == "PremiumRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -210,7 +210,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#PeriodType").val() == "DateRange"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#PeriodType").val() == "DateRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -261,7 +261,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#PeriodType").val() == "DateRange"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#PeriodType").val() == "DateRange"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -311,7 +311,7 @@
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>true</sch:required>
+            <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
@@ -364,7 +364,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#CommissionType").val() == "DollarAmount"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#CommissionType").val() == "DollarAmount"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -415,7 +415,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#CommissionType").val() == "Percentage"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#CommissionType").val() == "Percentage"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -466,7 +466,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$("#CommissionType").val() == "Percentage"</sch:displayCondition>
+            <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition>$("#CommissionType").val() == "Percentage"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
