@@ -21,7 +21,7 @@
             <sch:name>AgentId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType></sch:relatedObjectType>
+            <sch:relatedObjectType>Agent</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
