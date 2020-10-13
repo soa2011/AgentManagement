@@ -80,14 +80,14 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>CommissionPlanId</sch:name>
+            <sch:name>CommissionComponentId</sch:name>
             <sch:seqNumber>800</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>CommissionPlanId</sch:label>
+            <sch:label>CommissionComponentId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
