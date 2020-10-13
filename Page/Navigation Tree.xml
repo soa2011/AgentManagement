@@ -123,7 +123,7 @@
             <sch:tableName>CommissionDetail</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>800</sch:seqIndex>
-            <sch:format>CommissionPlans(%s)</sch:format>
+            <sch:format>CommissionDetails(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -133,8 +133,8 @@
             <sch:tableName>CommissionDetail</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>900</sch:seqIndex>
-            <sch:format>%s %s %s %s</sch:format>
-            <sch:columns>CommissionPlan.UnitNumber,CommissionPlan.IssurancePercent,CommissionPlan.IssuanceAmount,CommissionPlan.IssuanceType</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Oid</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:description></sch:description>
