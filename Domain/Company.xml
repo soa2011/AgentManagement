@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="Company">
+    <sch:name>Company</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainKeys/>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Delphi Mutual</sch:displayValue>
+            <sch:dataValue>Delphi Mutual</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Delphi Technology Inc</sch:displayValue>
+            <sch:dataValue>Delphi Technology Inc</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>Professional Mutual Insurance Co</sch:displayValue>
+            <sch:dataValue>Professional Mutual Insurance Co</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>4</sch:seqNumber>
+            <sch:displayValue>Vermont Mutual Insurance Co.</sch:displayValue>
+            <sch:dataValue>Vermont Mutual</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>5</sch:seqNumber>
+            <sch:displayValue>Podunk Mutual Insurance Co.</sch:displayValue>
+            <sch:dataValue>Podunk Mutual</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>6</sch:seqNumber>
+            <sch:displayValue>Acme Insurance Company</sch:displayValue>
+            <sch:dataValue>Acme Insurance Company</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>7</sch:seqNumber>
+            <sch:displayValue>Potomac Insurance Company of Illinois</sch:displayValue>
+            <sch:dataValue>Potomac Insurance Company of Illinois</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>8</sch:seqNumber>
+            <sch:displayValue>SUA Insurance Company</sch:displayValue>
+            <sch:dataValue>SUA Insurance Company</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>9</sch:seqNumber>
+            <sch:displayValue>Acme Mutual (BOP)</sch:displayValue>
+            <sch:dataValue>Acme Mutual (BOP)</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>10</sch:seqNumber>
+            <sch:displayValue>Acme Mutual (WC)</sch:displayValue>
+            <sch:dataValue>Acme Mutual (WC)</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>11</sch:seqNumber>
+            <sch:displayValue>Acme Mutual</sch:displayValue>
+            <sch:dataValue>Acme Mutual</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>

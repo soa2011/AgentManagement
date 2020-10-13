@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="Agent">
+    <sch:name>Agent</sch:name>
+    <sch:objectTypeName>Agent</sch:objectTypeName>
+    <sch:referenceName></sch:referenceName>
+    <sch:fieldName></sch:fieldName>
+    <sch:ruleType>Validation</sch:ruleType>
+    <sch:ruleCode></sch:ruleCode>
+    <sch:ruleLanguage></sch:ruleLanguage>
+    <sch:ruleBody></sch:ruleBody>
+    <sch:seqNumber>1</sch:seqNumber>
+    <sch:description>Agent_Validate</sch:description>
+</sch:Rule>

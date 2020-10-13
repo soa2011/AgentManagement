@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="CommissionType">
+    <sch:name>CommissionType</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainKeys/>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>FlatDollar</sch:displayValue>
+            <sch:dataValue>DollarAmount</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Percent</sch:displayValue>
+            <sch:dataValue>Percentage</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>Schedule</sch:displayValue>
+            <sch:dataValue>Schedule</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>4</sch:seqNumber>
+            <sch:displayValue>NotApplicable</sch:displayValue>
+            <sch:dataValue>NotApplicable</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>

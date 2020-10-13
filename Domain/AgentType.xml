@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="AgentType">
+    <sch:name>AgentType</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainKeys/>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Internal Agent</sch:displayValue>
+            <sch:dataValue>Internal Agent</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>External Standard Agent</sch:displayValue>
+            <sch:dataValue>External Standard Agent</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>External Non-Standard Agent</sch:displayValue>
+            <sch:dataValue>External Non-Standard Agent</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>4</sch:seqNumber>
+            <sch:displayValue>Agent Statement</sch:displayValue>
+            <sch:dataValue>Agent Statement</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>
