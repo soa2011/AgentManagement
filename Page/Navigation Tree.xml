@@ -263,7 +263,7 @@
             <sch:tableName>CommissionStatement</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1350</sch:seqIndex>
-            <sch:format>Agency Transfers(%s)</sch:format>
+            <sch:format>CommissionStatements(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -283,7 +283,7 @@
             <sch:tableName>CommissionStatementLine</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1350</sch:seqIndex>
-            <sch:format>Transferred Policies(%s)</sch:format>
+            <sch:format>StatementLines(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -291,6 +291,26 @@
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
             <sch:tableName>CommissionStatementLine</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>1355</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>UnitNumber</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>CommissionStmtLineSource</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>1350</sch:seqIndex>
+            <sch:format>LineSources(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>CommissionStmtLineSource</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1355</sch:seqIndex>
             <sch:format>%s</sch:format>
