@@ -146,7 +146,7 @@
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
             <sch:mask></sch:mask>
-            <sch:relatedFields>PeriodId</sch:relatedFields>
+            <sch:relatedFields></sch:relatedFields>
             <sch:relatedRules></sch:relatedRules>
             <sch:helpText></sch:helpText>
             <sch:help></sch:help>
@@ -189,7 +189,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:refTargetType></sch:refTargetType>
+            <sch:refTargetType>Agent</sch:refTargetType>
             <sch:label>AgentId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -197,7 +197,7 @@
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
             <sch:mask></sch:mask>
-            <sch:relatedFields>AgentId</sch:relatedFields>
+            <sch:relatedFields></sch:relatedFields>
             <sch:relatedRules></sch:relatedRules>
             <sch:helpText></sch:helpText>
             <sch:help></sch:help>
