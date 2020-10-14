@@ -73,8 +73,8 @@
             <sch:tableName>CommissionPlan</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>300</sch:seqIndex>
-            <sch:format>%s %s %s %s</sch:format>
-            <sch:columns>UnitNumber,IssurancePercent,IssuanceAmount,IssuanceType</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:description></sch:description>
