@@ -32,7 +32,7 @@
             <sch:name>PeriodId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>Agency</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionPeriod</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -40,7 +40,7 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>FromAgent</sch:name>
+            <sch:name>AgentId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType></sch:relatedObjectType>
@@ -54,7 +54,7 @@
             <sch:name>AgencyLicense</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>License</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
