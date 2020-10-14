@@ -18,10 +18,10 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>IssuanceSchedule</sch:name>
+            <sch:name>AgreementSpecId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -32,7 +32,7 @@
             <sch:name>RenewalSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -43,7 +43,7 @@
             <sch:name>EndorsementSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -54,7 +54,7 @@
             <sch:name>TailSchedule</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>CommissionCalendar</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -193,7 +193,7 @@
         <sch:BmfObjectField>
             <sch:name>RenewalType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>CommissionType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -209,7 +209,7 @@
         <sch:BmfObjectField>
             <sch:name>RenewalBasis</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>BasisType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -289,7 +289,7 @@
         <sch:BmfObjectField>
             <sch:name>EndorsementType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>CommissionType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -305,7 +305,7 @@
         <sch:BmfObjectField>
             <sch:name>EndorsementBasis</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>BasisType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -385,7 +385,7 @@
         <sch:BmfObjectField>
             <sch:name>TailType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>CommissionType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -401,7 +401,7 @@
         <sch:BmfObjectField>
             <sch:name>TailBasis</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>BasisType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
