@@ -111,7 +111,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>IssuanceBasis</sch:name>
+            <sch:name>Status</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName>BasisType</sch:enumName>
             <sch:length>32</sch:length>

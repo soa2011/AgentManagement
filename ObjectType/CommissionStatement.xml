@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="AgentTransfer">
-    <sch:name>AgentTransfer</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="CommissionStatement">
+    <sch:name>CommissionStatement</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>AgentManagement</sch:parentTypeName>
@@ -18,10 +18,10 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>AgentTransferPolicy</sch:name>
+            <sch:name>CommissionStatementLine</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>AgentTransferPolicy</sch:relatedObjectType>
+            <sch:relatedObjectType>CommissionStatementLine</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>
@@ -29,7 +29,7 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>FromAgency</sch:name>
+            <sch:name>PeriodId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType>Agency</sch:relatedObjectType>
@@ -55,17 +55,6 @@
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType>License</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>ToAgency</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>Agency</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -181,7 +170,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>IssuanceBasis</sch:name>
+            <sch:name>Status</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName>BasisType</sch:enumName>
             <sch:length>32</sch:length>
