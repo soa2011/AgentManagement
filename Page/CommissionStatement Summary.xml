@@ -29,14 +29,14 @@
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>ChangeType</sch:name>
+            <sch:name>DocNum</sch:name>
             <sch:seqNumber>200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>ChangeType</sch:label>
+            <sch:label>DocNum</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

@@ -90,9 +90,9 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>ChangeType</sch:name>
+            <sch:name>DocNum</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>AgentChangeType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
