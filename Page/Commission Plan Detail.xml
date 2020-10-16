@@ -140,7 +140,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>IssuanceType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>CommissionType</sch:domainName>
+            <sch:domainName>CommissionCalcType</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue>Percentage</sch:defaultValue>
@@ -180,7 +180,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">CommissionType</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">CommissionCalcType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IssuancePercent</sch:name>

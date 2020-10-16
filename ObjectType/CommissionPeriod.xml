@@ -82,9 +82,9 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>CommissionType</sch:name>
+            <sch:name>CommissionCalcType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>CommissionType</sch:enumName>
+            <sch:enumName>CommissionCalcType</sch:enumName>
             <sch:length>32</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>

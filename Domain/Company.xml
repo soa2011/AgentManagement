@@ -29,47 +29,5 @@
             <sch:dataValue>Vermont Mutual</sch:dataValue>
             <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>5</sch:seqNumber>
-            <sch:displayValue>Podunk Mutual Insurance Co.</sch:displayValue>
-            <sch:dataValue>Podunk Mutual</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>6</sch:seqNumber>
-            <sch:displayValue>Acme Insurance Company</sch:displayValue>
-            <sch:dataValue>Acme Insurance Company</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>7</sch:seqNumber>
-            <sch:displayValue>Potomac Insurance Company of Illinois</sch:displayValue>
-            <sch:dataValue>Potomac Insurance Company of Illinois</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>8</sch:seqNumber>
-            <sch:displayValue>SUA Insurance Company</sch:displayValue>
-            <sch:dataValue>SUA Insurance Company</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>9</sch:seqNumber>
-            <sch:displayValue>Acme Mutual (BOP)</sch:displayValue>
-            <sch:dataValue>Acme Mutual (BOP)</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>10</sch:seqNumber>
-            <sch:displayValue>Acme Mutual (WC)</sch:displayValue>
-            <sch:dataValue>Acme Mutual (WC)</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
-        <sch:BmfDomainEntry>
-            <sch:seqNumber>11</sch:seqNumber>
-            <sch:displayValue>Acme Mutual</sch:displayValue>
-            <sch:dataValue>Acme Mutual</sch:dataValue>
-            <sch:keyValues>{}</sch:keyValues>
-        </sch:BmfDomainEntry>
     </sch:domainEntries>
 </sch:DomainTable>

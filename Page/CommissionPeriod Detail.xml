@@ -233,7 +233,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>CommissionType</sch:name>
+            <sch:name>CommissionCalcType</sch:name>
             <sch:seqNumber>600</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -242,7 +242,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Commission Type</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>CommissionType</sch:domainName>
+            <sch:domainName>CommissionCalcType</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue>Percentage</sch:defaultValue>
@@ -282,7 +282,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">CommissionType</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">CommissionCalcType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Amount</sch:name>
@@ -313,7 +313,7 @@
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition>$("#CommissionType").val() == "DollarAmount"</sch:requiredCondition>
+            <sch:requiredCondition>$("#CommissionCalcType").val() == "DollarAmount"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
@@ -364,7 +364,7 @@
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition>$("#CommissionType").val() == "Percentage"</sch:requiredCondition>
+            <sch:requiredCondition>$("#CommissionCalcType").val() == "Percentage"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
@@ -415,7 +415,7 @@
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition>$("#CommissionType").val() == "Percentage"</sch:requiredCondition>
+            <sch:requiredCondition>$("#CommissionCalcType").val() == "Percentage"</sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
