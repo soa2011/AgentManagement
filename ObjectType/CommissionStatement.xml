@@ -138,7 +138,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>IssuanceAmount</sch:name>
+            <sch:name>Amount</sch:name>
             <sch:dataType>Decimal</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>10</sch:length>
