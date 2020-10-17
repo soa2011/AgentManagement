@@ -43,7 +43,7 @@
             <sch:tableName>Territory</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>200</sch:seqIndex>
-            <sch:format>Territorys(%s)</sch:format>
+            <sch:format>Territories(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -53,8 +53,8 @@
             <sch:tableName>Territory</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>300</sch:seqIndex>
-            <sch:format>%s %s %s %s</sch:format>
-            <sch:columns>TerritoryNumber,WritingCompany,LineOfBusiness,State</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:description></sch:description>
