@@ -208,7 +208,7 @@
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Edit</sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>true</sch:required>
+            <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition>Yes</sch:readOnlyCondition>

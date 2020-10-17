@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="License">
-    <sch:name>License</sch:name>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="AgencyTerritory">
+    <sch:name>AgencyTerritory</sch:name>
     <sch:domainType>REFERENCE</sch:domainType>
     <sch:description></sch:description>
     <sch:domainKeys>
@@ -8,8 +8,8 @@
             <sch:seqNo>1</sch:seqNo>
             <sch:domainTableId></sch:domainTableId>
             <sch:domainTableReference></sch:domainTableReference>
-            <sch:name>License</sch:name>
-            <sch:columnName>License</sch:columnName>
+            <sch:name>AgencyTerritory</sch:name>
+            <sch:columnName>AgencyTerritory</sch:columnName>
             <sch:type></sch:type>
             <sch:keySize></sch:keySize>
             <sch:description></sch:description>

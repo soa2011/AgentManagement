@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="Agency License Detail">
-    <sch:name>Agency License Detail</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="Agent Territory Detail">
+    <sch:name>Agent Territory Detail</sch:name>
     <sch:pageNumber></sch:pageNumber>
     <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>1100</sch:seqNumber>
-    <sch:objectTypeName>AgencyLicense</sch:objectTypeName>
+    <sch:seqNumber>1500</sch:seqNumber>
+    <sch:objectTypeName>AgentTerritory</sch:objectTypeName>
     <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,7 +25,7 @@
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">AgencyLicense</sch:objectType>
+    <sch:objectType isRef="true">AgentTerritory</sch:objectType>
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
@@ -80,16 +80,16 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>License</sch:name>
+            <sch:name>Territory</sch:name>
             <sch:seqNumber>200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>License</sch:label>
+            <sch:label>Territory</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>License</sch:domainName>
+            <sch:domainName>Territory</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -116,7 +116,7 @@
             <sch:modifyResource2></sch:modifyResource2>
             <sch:singleYesIndicator>false</sch:singleYesIndicator>
             <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints>UniqueInParent</sch:constraints>
+            <sch:constraints></sch:constraints>
             <sch:description></sch:description>
             <sch:className></sch:className>
             <sch:formatter></sch:formatter>
@@ -129,7 +129,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">License</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">Territory</sch:bmfDomain>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

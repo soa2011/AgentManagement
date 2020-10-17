@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="AgentLicense">
-    <sch:name>AgentLicense</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="AgentTerritory">
+    <sch:name>AgentTerritory</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>Agent</sch:parentTypeName>
@@ -18,10 +18,10 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>License</sch:name>
+            <sch:name>Territory</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>License</sch:relatedObjectType>
+            <sch:relatedObjectType>Territory</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
